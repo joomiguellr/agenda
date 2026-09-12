@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Instalar o Pauta</title>
+<meta name="theme-color" content="#1F3A5F">
+<link rel="icon" href="favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F6F4EF; --ink:#22262E; --ink-soft:#5B6472; --line:#E6E1D6;
+  --prof:#1F3A5F; --prof-soft:#E7ECF2; --gold:#A9793F; --gold-soft:#F2E8D8;
+}
+*{box-sizing:border-box;}
+body{margin:0; background:var(--bg); color:var(--ink); font-family:'IBM Plex Sans',sans-serif; line-height:1.55;}
+.wrap{max-width:520px; margin:0 auto; padding:48px 20px 60px;}
+.logo{width:60px; height:60px; border-radius:16px; display:block; margin-bottom:18px;}
+h1{font-family:'Fraunces',serif; font-size:30px; margin:0 0 6px;}
+.sub{color:var(--ink-soft); font-size:15px; margin-bottom:34px;}
+.step{display:flex; gap:14px; margin-bottom:22px; align-items:flex-start;}
+.step .n{width:28px; height:28px; border-radius:50%; background:var(--prof); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:13px; flex-shrink:0;}
+.step .t strong{display:block; font-size:15px; margin-bottom:2px;}
+.step .t p{margin:0; font-size:13.5px; color:var(--ink-soft);}
+.platform{border:1px solid var(--line); border-radius:18px; padding:22px 22px 20px; margin-bottom:24px; background:#fff;}
+.platform h2{font-family:'Fraunces',serif; font-size:19px; margin:0 0 16px; display:flex; align-items:center; gap:8px;}
+.badge{font-size:11px; font-weight:700; background:var(--gold-soft); color:#8A6132; padding:3px 9px; border-radius:99px;}
+a.cta{display:inline-flex; align-items:center; gap:8px; background:var(--prof); color:#fff; text-decoration:none; font-weight:600; font-size:15px; padding:13px 24px; border-radius:99px; margin-top:8px;}
+.note{font-size:12.5px; color:var(--ink-soft); margin-top:28px; padding-top:20px; border-top:1px solid var(--line);}
+kbd{background:var(--prof-soft); padding:1px 7px; border-radius:6px; font-size:12.5px; font-family:inherit;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <svg class="logo" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <rect width="64" height="64" rx="15" fill="#1F3A5F"/>
+    <polygon points="23,17 41,17 41,42 32,49 23,42" fill="#F6F4EF"/>
+    <line x1="26.5" y1="25" x2="37.5" y2="25" stroke="#A9793F" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="26.5" y1="30" x2="37.5" y2="30" stroke="#A9793F" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="26.5" y1="35" x2="37.5" y2="35" stroke="#A9793F" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="41" cy="17" r="4.4" fill="#A9793F"/>
+  </svg>
+  <h1>Instalar o Pauta</h1>
+  <p class="sub">Pauta é um app instalável — sem loja de aplicativos. Ele fica salvo no seu aparelho e funciona mesmo offline. Siga o passo a passo do seu sistema abaixo.</p>
+
+  <div class="platform">
+    <h2>iPhone / iPad <span class="badge">Safari</span></h2>
+    <div class="step"><div class="n">1</div><div class="t"><strong>Abra o Pauta no Safari</strong><p>Precisa ser no navegador Safari — outros navegadores no iOS não permitem instalar.</p></div></div>
+    <div class="step"><div class="n">2</div><div class="t"><strong>Toque no ícone de Compartilhar</strong><p>O quadrado com uma seta para cima, na barra inferior (ou superior, no iPad).</p></div></div>
+    <div class="step"><div class="n">3</div><div class="t"><strong>Escolha "Adicionar à Tela de Início"</strong><p>Role a lista de opções até encontrar.</p></div></div>
+    <div class="step"><div class="n">4</div><div class="t"><strong>Toque em "Adicionar"</strong><p>O ícone do Pauta aparecerá na sua tela de início, como um app normal.</p></div></div>
+    <a class="cta" href="index.html">Abrir o Pauta no Safari →</a>
+  </div>
+
+  <div class="platform">
+    <h2>Android <span class="badge">Chrome</span></h2>
+    <div class="step"><div class="n">1</div><div class="t"><strong>Abra o Pauta no Chrome</strong><p></p></div></div>
+    <div class="step"><div class="n">2</div><div class="t"><strong>Toque no menu (⋮)</strong><p>No canto superior direito.</p></div></div>
+    <div class="step"><div class="n">3</div><div class="t"><strong>Escolha "Instalar aplicativo" ou "Adicionar à tela inicial"</strong><p>O texto exato pode variar conforme a versão do Chrome.</p></div></div>
+    <a class="cta" href="index.html">Abrir o Pauta no Chrome →</a>
+  </div>
+
+  <div class="platform">
+    <h2>Computador <span class="badge">Chrome / Edge</span></h2>
+    <div class="step"><div class="n">1</div><div class="t"><strong>Abra o Pauta no navegador</strong><p></p></div></div>
+    <div class="step"><div class="n">2</div><div class="t"><strong>Clique no ícone de instalação</strong><p>Costuma aparecer do lado direito da barra de endereço.</p></div></div>
+    <a class="cta" href="index.html">Abrir o Pauta →</a>
+  </div>
+
+  <p class="note">Depois de instalado, abra sempre pelo ícone na tela de início (não pelos favoritos do navegador) para que as notificações e o funcionamento offline funcionem corretamente. Seus dados ficam salvos apenas neste aparelho — use a opção de backup dentro do app (em <kbd>Ajustes</kbd>) para migrar para outro aparelho.</p>
+</div>
+</body>
+</html>
